@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Code_Quiz</title>
+</head>
+<body>
+    <header>
+      <h1 class= "large-font">Coding Quiz Challenge</h1>
+      <p> <br> Try to answer the following code-related questions within the time <br> limit. Keep in mind that incorrect answers will penalize your scoretime <br> by ten seconds! <br></p>
+      <button class="start-button">Start Quiz</button>
+    </header>
+    <main>
+      <section>
+        <div class="quiz">
+          <div class="q1">
+            <h3>Commonly used data types DO NOT <br> include: </h3>
+            <ol class="answers1">
+              <li id="1" >strings</li>
+              <li id="2" >booleans</li>
+              <li id="3" >alerts</li>
+              <li id="4" >numbers</li>
+            </ol>
+          </div>
+          
+          <div class="q2">
+            <h3>The condition in an if / else statement is<br>enclosed within _____. </h3>
+            <ol class="answers2">
+              <li id="5" >quotes</li>
+              <li id="6" >curly brackets</li>
+              <li id="7" >parentheses</li>
+              <li id="8" >square brackets</li>
+            </ol>
+          </div>
+          <div class="q3">
+            <h3>Arrays in JavaScript can be used to store <br>_____. </h3>
+            <ol class="answers3">
+              <li id="9" >numbers and strings</li>
+              <li id="10" >other arrays</li>
+              <li id="11" >booleans</li>
+              <li id="12" >all of the above</li>
+            </ol>
+          </div>
+          <div class="q4">
+            <h3>String values must be enclosed within _____<br>when being assigned to variables.</h3>
+            <ol class="answers4">
+              <li id="13" >commas</li>
+              <li id="14" >curly brackets</li>
+              <li id="15" >quotes</li>
+              <li id="16" >parentheses</li>
+            </ol>
+          </div>
+          <div class="q5">
+            <h3>A very useful tool used during development<br>and debugging for printing content to the<br>debugger is:</h3>
+            <ol class="answers5">
+              <li id="17" >JavaScript</li>
+              <li id="18" >terminal/bash</li>
+              <li id="19" >for loops</li>
+              <li id="20" >console.log</li>
+            </ol>
+          </div>
+
+          <div class="end">
+            <h3>All done!</h3>
+            <p><br>Your final score is:<br></p>
+            <p id="value"></p>
+            <div class="label-initials">
+              <label>Enter Initials:</label>
+            </div>
+            <div class="initials">
+              <input type="text"></input>
+            </div>
+            <p class= "submit">Submit</p>
+
+          </div>
+
+          <div class="highscores">
+            <p>Highscores</p>
+            <ol class="top"> 
+              <li id=value></li>
+            </ol>
+            <a class= "return" href="./index.html">  Go Back </a>
+            <p><br> <br> </p>
+            <p class= "clear"><br> <br> Clear Highscores</p>
+
+          </div>
+          <div class= "card timer">
+            <div class = "timer-text">
+            <div class="large-font timer-count">25</div>
+            <h3>seconds remaining</h3>
+          </div>
+          <div>
+            <p id="answer"><br><br></p>
+          </div>
+
+          
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
